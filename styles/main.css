@@ -1,0 +1,143 @@
+body {
+  margin: 60px 40px 40px 40px;
+  background-color: white;
+  font-family: 'Crimson Text', serif;
+  color: black;
+}
+
+nav {
+  margin: -40px 0 40px 0;
+}
+
+nav a {
+  margin: 0 10px 0 10px;
+}
+
+nav hr {
+  max-width: 300px;
+}
+
+h1 {
+  margin-bottom: -30px;
+  font-size: 100px;
+}
+
+#selfie {
+  margin-top: 40px;
+  width: 90%;
+  max-width: 600px;
+}
+
+#discog {
+  margin-top: 40px;
+}
+
+.intro {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+hr {
+  color: black;
+  border: 1px solid black;
+}
+
+.img-responsive {
+  border: 1px solid black;
+}
+
+#hyperdub {
+  border: none;
+  max-width: 100px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+#listening-p {
+  margin-top: -5px;
+}
+
+#interviews {
+  margin-top: 40px;
+}
+
+#links {
+  margin-top: 40px;
+}
+
+/* Button */
+/*
+button {
+  letter-spacing: 3px;
+  font-size: 14px;
+  background-color: white;*/
+  /*border-radius: 12%;
+}
+*/
+
+.info-btn {
+  margin: auto;
+  margin-top: 25px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border: 1px solid black;
+  width: 60px;
+  border-radius: 8%;
+  text-align: center;
+}
+
+.info-btn:hover {
+  box-shadow: 3px 3px 3px #bec6d3;
+}
+
+/* Info Divs */
+
+#slb-info,
+#burial-info,
+#dl-info,
+#gh-info,
+#untrue-info,
+#sh-info,
+#kindred-info,
+#truant-info,
+#rd-info {
+  display: none;
+}
+
+
+#slb-info p,
+#burial-info p,
+#dl-info p,
+#gh-info p,
+#untrue-info p,
+#sh-info p,
+#kindred-info p,
+#truant-info p,
+#rd-info p {
+  margin-bottom: -20px;
+}
+
+span {
+  margin-left: 0px;
+  color: #492024;
+  font-size: 20px;
+}
+
+#burial-1-info,
+#burial-2-info,
+#burial-3-info,
+#burial-5-info {
+  display: none;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.hidden {
+  display: none;
+}
