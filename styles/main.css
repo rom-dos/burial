@@ -1,8 +1,8 @@
 body {
   margin: 60px 40px 40px 40px;
-  background-color: white;
-  font-family: 'Crimson Text', serif;
-  color: black;
+  background-color: #dfb5a4;
+  font-family: 'Cormorant Garamond', serif; 
+  color: #194e61;
 }
 
 nav {
@@ -11,6 +11,15 @@ nav {
 
 nav a {
   margin: 0 10px 0 10px;
+  color: #194e61;
+}
+
+a {
+  font-size: 18px;
+}
+
+a:hover {
+  color: #290444;
 }
 
 nav hr {
