@@ -141,7 +141,22 @@ span {
 #burial-1-info,
 #burial-2-info,
 #burial-3-info,
-#burial-5-info {
+#burial-5-info,
+#burial-7-info,
+#burial-8-info,
+#burial-9-info,
+#burial-10-info,
+#burial-11-info,
+#burial-12-info,
+#burial-13-info,
+#untrue-1-info,
+#untrue-2-info,
+#untrue-4-info,
+#untrue-5-info,
+#untrue-6-info,
+#untrue-7-info,
+#untrue-8-info,
+#untrue-9-info {
   display: none;
   font-size: 12px;
   margin-left: 15px;
@@ -149,4 +164,12 @@ span {
 
 .hidden {
   display: none;
+}
+
+.section-p {
+  margin-bottom: -15px;
+}
+
+#listening-list {
+  margin-top: 40px;
 }
