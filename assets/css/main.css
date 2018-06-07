@@ -31,10 +31,16 @@ h1 {
   font-size: 100px;
 }
 
-#selfie {
-  margin-top: 40px;
-  width: 90%;
-  max-width: 600px;
+
+#img-div {
+  margin-top: 80px;
+}
+#image {
+  width: 100%; 
+  max-width: 500px;
+}
+#img-caption {
+  margin-top: 2rem;
 }
 
 #discog {
