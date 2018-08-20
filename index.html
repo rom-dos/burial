@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Burial</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -11,7 +13,7 @@
 <body id="main">
   <div class="container-fluid">
     <div id="top">
-      <nav class="text-center">
+      <nav>
         <a href="#discog">Discography</a>
         <a href="#listening-list">Listening List</a>
         <a href="#interviews">Interviews</a>
@@ -20,10 +22,11 @@
       </nav>
     </div>
 
-    <h1 id="title" class="text-center">Burial</h1>
+    <h1 id="title">Burial</h1>
     
     <div id="img-div">
-      <img src="img/burial-selfie.jpg" alt="Burial Selfie" class="img-responsive center-block" id="image" />
+      <img id="logo" src="assets/img/logo-min.png" alt="">
+      <!-- <img src="img/burial-selfie.jpg" alt="Burial Selfie" class="img-fluid mx-auto" id="image" /> -->
       <p id="img-caption" class="text-center"><small>William Emmanuel Bevan</small></p>
     </div>
 
@@ -48,7 +51,7 @@
       <!-- South London Boroughs -->
       <div class="col-sm-4">
         <p class="text-center"><strong>South London Boroughs</strong></p>
-        <img src="img/burial-slb.jpg" alt="South London Buroughs" class="img-responsive album" />
+        <img src="img/burial-slb.jpg" alt="South London Buroughs" class="img-fluid album" />
         <div id="slb-info">
           <p class="text-center">Released: <strong>May 16, 2005</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-south-london-boroughs-hdb001" target="_blank">HDB001</a></p>
@@ -65,7 +68,7 @@
       <!-- Burial -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Burial</strong></p>
-        <img src="img/burial-burial.jpg" alt="Self-Titled Album" id="burial-burial" class="img-responsive album" />
+        <img src="img/burial-burial.jpg" alt="Self-Titled Album" id="burial-burial" class="img-fluid album" />
         <div id="burial-info">
           <p class="text-center">Released: <strong>May 15, 2006</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-burial-hdbcd001" target="_blank">HDBCD001 / HDBLP001</a></p>
@@ -104,7 +107,7 @@
       <!-- Distant Lights -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Distant Lights</strong></p>
-        <img src="img/burial-distant-lights.jpg" alt="Distant Lights" class="img-responsive album" />
+        <img src="img/burial-distant-lights.jpg" alt="Distant Lights" class="img-fluid album" />
         <div id="dl-info">
           <p class="text-center">Released: <strong>August 26, 2006</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-distant-lights-hdb003" target="_blank">HDB003</a></p>
@@ -124,7 +127,7 @@
       <!-- Ghost Hardware -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Ghost Hardware</strong></p>
-        <img src="img/burial-ghost-hardware.jpg" alt="Ghost Hardware" class="img-responsive" />
+        <img src="img/burial-ghost-hardware.jpg" alt="Ghost Hardware" class="img-fluid" />
         <div id="gh-info">
           <p class="text-center">Released: <strong>June 14, 2007</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-ghost-hardware-hdb004" target="_blank">HDB004</a></p>
@@ -141,7 +144,7 @@
       <!-- Untrue -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Untrue</strong></p>
-        <img src="img/burial-untrue.jpg" class="img-responsive album" />
+        <img src="img/burial-untrue.jpg" class="img-fluid album" />
         <div id="untrue-info">
           <p class="text-center">Released: <strong>November 5, 2007</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-untrue-hdbcd002d" target="_blank">HDBCD002 / HDBLP002</a></p>
@@ -176,7 +179,7 @@
       <!-- Street Halo -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Street Halo</strong></p>
-        <img src="img/burial-street-halo.jpg" alt="Street Halo" class="img-responsive" />
+        <img src="img/burial-street-halo.jpg" alt="Street Halo" class="img-fluid" />
         <div id="sh-info">
           <p class="text-center">Released: <strong>March 23, 2011</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-street-halo-hdb013" target="_blank">HDB013</a></p>
@@ -196,7 +199,7 @@
       <!-- Kindred -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Kindred</strong></p>
-        <img src="img/burial-kindred.jpg" alt="Kindred" class="img-responsive" />
+        <img src="img/burial-kindred.jpg" alt="Kindred" class="img-fluid" />
         <div id="kindred-info">
           <p class="text-center">Released: <strong>February 13, 2012</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-kindred-hdb059" target="_blank">HDB059</a></p>
@@ -212,7 +215,7 @@
       <!-- Truant -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Truant / Rough Sleeper</strong></p>
-        <img src="img/burial-truant.jpg" alt="Truant / Rough Sleeper" class="img-responsive" />
+        <img src="img/burial-truant.jpg" alt="Truant / Rough Sleeper" class="img-fluid" />
         <div id="truant-info">
           <p class="text-center">Released: <strong>December 14, 2012</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-truant-hdb069" target="_blank">HDB069</a></p>
@@ -227,7 +230,7 @@
       <!-- Rival Dealer -->
       <div class="col-sm-4">
         <p class="text-center"><strong>Rival Dealer</strong></p>
-        <img src="img/burial-rival-dealer.jpg" alt="Rival Dealer" class="img-responsive" />
+        <img src="img/burial-rival-dealer.jpg" alt="Rival Dealer" class="img-fluid" />
         <div id="rd-info">
           <p class="text-center">Released: <strong>December 11, 2013</strong></p>
           <p class="text-center"><a href="https://burial.bandcamp.com/album/burial-rival-dealer-hdb080" target="_blank">HDB080</a></p>
@@ -285,45 +288,51 @@
       </div>
     </div>
 
-    <h3>Features</h3>
-    <p class="section-p">"Versus". <em>Warrior Dubz</em> (2006)</p>
-    <p class="section-p">"Unite". <em>Box of Dub: Dubstep and Future Dub</em> (2007)</p>
-    <p class="section-p">"Fostercare". <em>5: Five Years of Hyperdub</em> (2009)</p>
-    <p class="section-p">"Vial". <small>(Breakage featuring Burial)</small> <em>Foundation</em> (2010)</p>
-    <p class="section-p">"Prophecy". <small>(El-B featuring Burial)</small> <em>Nu Levels</em> (2010)</p>
-    <p class="section-p">"High Road". <small>(with Dusk and Blackdown)</small> <em>High Road</em> (2012)</p>
-    <p class="section-p">"Lambeth". <em>Hyperdub 10.4</em> (2014)</p>
-    <p class="section-p">"Sweetz". <small>(Zomby featuring Burial)</small> <em>Ultra</em> (2016)</p>
-    <br />
+    <div class="row">
+      <div class="col-sm-6 text-center">
+        <h3>Features</h3>
+        <p class="section-p">"Versus". <em>Warrior Dubz</em> (2006)</p>
+        <p class="section-p">"Unite". <em>Box of Dub: Dubstep and Future Dub</em> (2007)</p>
+        <p class="section-p">"Fostercare". <em>5: Five Years of Hyperdub</em> (2009)</p>
+        <p class="section-p">"Vial". <small>(Breakage featuring Burial)</small> <em>Foundation</em> (2010)</p>
+        <p class="section-p">"Prophecy". <small>(El-B featuring Burial)</small> <em>Nu Levels</em> (2010)</p>
+        <p class="section-p">"High Road". <small>(with Dusk and Blackdown)</small> <em>High Road</em> (2012)</p>
+        <p class="section-p">"Lambeth". <em>Hyperdub 10.4</em> (2014)</p>
+        <p class="section-p">"Sweetz". <small>(Zomby featuring Burial)</small> <em>Ultra</em> (2016)</p>
+      </div>
+      <div class="col-sm-6 text-center">
+        <h3>Remixes</h3>
+        <p class="section-p">Blackdown - "Crackle Blues" (Burial Remix). 2006</p>
+        <p class="section-p">Jamie Woon - "Wayfaring Stranger" (Burial Remix). 2007</p>
+        <p class="section-p">Bloc Party - "Where Is Home?" (Burial Remix). 2007</p>
+        <p class="section-p">Thom Yorke - "And It Rained All Night" (Burial Remix). 2007</p>
+        <p class="section-p">Commix - "Be True" (Burial Remix). 2008</p>
+      </div>
+    </div>
 
-    <h3>Remixes</h3>
-    <p class="section-p">Blackdown - "Crackle Blues" (Burial Remix). 2006</p>
-    <p class="section-p">Jamie Woon - "Wayfaring Stranger" (Burial Remix). 2007</p>
-    <p class="section-p">Bloc Party - "Where Is Home?" (Burial Remix). 2007</p>
-    <p class="section-p">Thom Yorke - "And It Rained All Night" (Burial Remix). 2007</p>
-    <p class="section-p">Commix - "Be True" (Burial Remix). 2008</p>
+    <br />
 
     <!-- <h3 id="radio-mixes">Radio Mixes</h3> -->
 
     <!-- Listening List -->
-    <h2 id="listening-list">Listening List</h2>
-    <p id="listening-p">Tracks, and artists referenced by Burial as influences, in interviews or other sources</p>
+    <h2 id="listening-list" class="text-center">Listening List</h2>
+    <p id="listening-p" class="text-center">Tracks, and artists referenced by Burial as influences, in interviews or other sources</p>
 
     <div class="row">
 
       <div class="col-sm-4">
         <p class="text-center">D'Cruze <br />Lonely</p>
-        <iframe class="img-responsive" width="560" height="315" src="https://www.youtube.com/embed/N5Eu3GZQsyE" frameborder="0" allowfullscreen></iframe>
+        <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/N5Eu3GZQsyE" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="col-sm-4">
         <p class="text-center">Teebee <br /> Let Go</p>
-        <iframe class="img-responsive" width="560" height="315"  src="https://www.youtube.com/embed/ejO0l_qrbYk" frameborder="0" allowfullscreen></iframe>
+        <iframe class="img-fluid" width="560" height="315"  src="https://www.youtube.com/embed/ejO0l_qrbYk" frameborder="0" allowfullscreen></iframe>
       </div>
 
       <div class="col-sm-4">
         <p class="text-center">Foul Play <br /> Being With You (Remix)</p>
-        <iframe class="img-responsive" width="560" height="315" src="https://www.youtube.com/embed/tye5M9W1Ce0" frameborder="0" allowfullscreen></iframe>
+        <iframe class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/tye5M9W1Ce0" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
 
@@ -354,37 +363,42 @@
       </div>
     </div>
 
-    <!-- Interviews -->
-    <h2 id="interviews">Interviews</h2>
+    <div class="row">
+      <div class="col-sm-6">
+        <!-- Interviews -->
+        <h2 id="interviews">Interviews</h2>
 
-    <p>March 21, 2006. <a href="http://blackdownsoundboy.blogspot.com/2006_03_01_archive.html" target="_blank">BlackDownSoundBoy (interviewed by Martin Clark)</a></p>
+        <p>March 21, 2006. <a href="http://blackdownsoundboy.blogspot.com/2006_03_01_archive.html" target="_blank">BlackDownSoundBoy (interviewed by Martin Clark)</a></p>
 
-    <p>December, 2007. <a href="http://www.thewire.co.uk/in-writing/interviews/burial_unedited-transcript" target="_blank">The Wire Magazine Unedited Transcript (interviewed by Mark Fisher)</a></p>
+        <p>December, 2007. <a href="http://www.thewire.co.uk/in-writing/interviews/burial_unedited-transcript" target="_blank">The Wire Magazine Unedited Transcript (interviewed by Mark Fisher)</a></p>
 
-    <p>July, 2012. <a href="http://www.factmag.com/2012/07/01/burial-interview/" target="_blank">Fact Magazine Interview</a></p>
+        <p>July, 2012. <a href="http://www.factmag.com/2012/07/01/burial-interview/" target="_blank">Fact Magazine Interview</a></p>
 
-    <!-- Links -->
-    <h2 id="links">Links</h2>
+        <!-- Further Reading -->
+        <h3 id="further-reading">Further Reading</h3>
 
-    <p><a href="https://en.wikipedia.org/wiki/Burial_(musician)" target="_blank">Wikipedia Entry</a></p>
-    <p><a href="https://en.wikipedia.org/wiki/Burial_discography" target="_blank">Discography (Wikipedia)</a></p>
-    <p><a href="http://www.hyperdub.net/artists/view/Burial" target="_blank">Hyperdub Artist Page</a></p>
-    <p><a href="https://www.discogs.com/artist/306157-Burial" target="_blank">Discogs</a></p>
+        <p><a href="http://www.thewire.co.uk/in-writing/essays/the-wire-300_simon-reynolds-on-the-hardcore-continuum_introduction" target="_blank">The Hardcore Continuum, by Simon Reynolds (The Wire Magazine)</a></p>
+      </div>
+      <div class="col-sm-6">
+        <!-- Links -->
+        <h2 id="links">Links</h2>
 
-      <p><a href="http://rougesfoam.blogspot.com/2009/12/premature-burial-burial-pallbearer-vs.html" target="_blank">The Premature Burial: Burial the Pallbearer vs Burial The Innovator (Rouge's Foam)</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/Burial_(musician)" target="_blank">Wikipedia Entry</a></p>
+        <p><a href="https://en.wikipedia.org/wiki/Burial_discography" target="_blank">Discography (Wikipedia)</a></p>
+        <p><a href="http://www.hyperdub.net/artists/view/Burial" target="_blank">Hyperdub Artist Page</a></p>
+        <p><a href="https://www.discogs.com/artist/306157-Burial" target="_blank">Discogs</a></p>
 
-      <p><a href="http://www.hyperdub.net/burial/" target="_blank">Burial's Note of Appreciation, January 2014</a></p>
+          <p><a href="http://rougesfoam.blogspot.com/2009/12/premature-burial-burial-pallbearer-vs.html" target="_blank">The Premature Burial: Burial the Pallbearer vs Burial The Innovator (Rouge's Foam)</a></p>
 
-      <p><a href="http://www.factmag.com/2016/05/15/burial-turns-10-music-movie-video-game-roots/" target="_blank">Burial turns 10: The roots of a dubstep masterpiece, by John Twells (Fact Magazine)</a></p>
+          <p><a href="http://www.hyperdub.net/burial/" target="_blank">Burial's Note of Appreciation, January 2014</a></p>
 
-      <p><a href="https://www.reddit.com/r/burial/" target="_blank">r/Burial</a></p>
+          <p><a href="http://www.factmag.com/2016/05/15/burial-turns-10-music-movie-video-game-roots/" target="_blank">Burial turns 10: The roots of a dubstep masterpiece, by John Twells (Fact Magazine)</a></p>
 
-      <!-- Further Reading -->
-      <h3 id="further-reading">Further Reading</h3>
+          <p><a href="https://www.reddit.com/r/burial/" target="_blank">r/Burial</a></p>
+      </div>
+    </div>
 
-      <p><a href="http://www.thewire.co.uk/in-writing/essays/the-wire-300_simon-reynolds-on-the-hardcore-continuum_introduction" target="_blank">The Hardcore Continuum, by Simon Reynolds (The Wire Magazine)</a></p>
-
-      <!--  <img src="https://f4.bcbits.com/img/0005798234_10.jpg" alt="Hyperdub" class="img-responsive" id="hyperdub" /> -->
+      <!--  <img src="https://f4.bcbits.com/img/0005798234_10.jpg" alt="Hyperdub" class="img-fluid" id="hyperdub" /> -->
       <hr />
       <p class="text-center"><a href="#top">Top</a></p>
 

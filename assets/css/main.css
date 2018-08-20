@@ -6,37 +6,49 @@ body {
 }
 
 nav {
-  margin: -40px 0 40px 0;
+  margin: 2rem 0;
+  text-align: center;
 }
 
 nav a {
-  margin: 0 10px 0 10px;
+  margin: 0 1rem;
   color: #194e61;
+  text-decoration: none;
 }
+
+nav hr {
+  margin-top: 2rem;
+  max-width: 300px;
+}
+
 
 a {
   font-size: 18px;
+  color: #204a5b;
 }
 
 a:hover {
   color: #290444;
 }
 
-nav hr {
-  max-width: 300px;
-}
-
 h1 {
   margin-bottom: -30px;
   font-size: 100px;
+  text-align: center;
 }
 
+#logo {
+  margin: 0 auto;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  display: block;
+}
 
 #img-div {
   margin-top: 80px;
 }
 #image {
-  width: 100%; 
+  display: block;
   max-width: 500px;
 }
 #img-caption {
@@ -100,11 +112,14 @@ button {
   margin: auto;
   margin-top: 25px;
   letter-spacing: 2px;
-  font-size: 14px;
-  border: 1px solid black;
-  width: 60px;
-  border-radius: 8%;
+  font-size: 16px;
+  border: 1px dashed black;
+  width: 80px;
+  padding-top: 0.2rem;
+  height: 2.0rem;
+  border-radius: 8px;
   text-align: center;
+  font-weight: 800;
 }
 
 .info-btn:hover {
